@@ -1,0 +1,94 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(purple, gold);
+    color: #ffffff;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bday-date {
+    background: pink;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#bff-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    border: 6px solid pink;
+    margin-bottom: 10px
+}
+
+h1, h2, h3,  h4, p {
+    text-shadow: 0px 0px 25px pink;
+}
+
+#bday-age {
+    background: pink;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+.gift-pic {
+    margin: 20px auto;
+    max-width: 500px;
+    height: 500px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url(https://st2.depositphotos.com/1875497/6613/i/450/depositphotos_66131889-Birthday-Gift-box.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#gift-img-happy:hover {
+    background-image: url(https://media2.giphy.com/media/XbexUIAbnLH46zAvln/giphy.gif?cid=ecf05e47vaf2i5963y111x16qkm305n8g7kwr5eu9vdfzbqd&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+}
+
+#gift-img-aww:hover {
+    background-image: url(https://media1.giphy.com/media/oCSRs4nhsQPOzhIioq/giphy.gif?cid=ecf05e47rj108o6hyen77hengkgdpmx0i9kd0xwwu9oom71c&ep=v1_gifs_related&rid=giphy.gif&ct=g);
+}
+
+#gift-img-cute:hover {
+    background-image: url(https://media4.giphy.com/media/RLVHPJJv7jY1q/giphy.gif?cid=ecf05e47aawr5ifeuihz2s2vkhx598xnxkil1viyzfukzpmh&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+}
+
+#gift-img-lovely:hover {
+    background-image: url(https://media0.giphy.com/media/35DmVHlLURCWBxmK8j/giphy.gif?cid=ecf05e47tzvzqi7estmcvvlmkokpte3ktmp0kafdan5hrgpv&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+}
+
+#gift-img-cheers:hover {
+    background-image: url(https://media2.giphy.com/media/gIgaSmNNiYyAa7lQBC/giphy.gif?cid=ecf05e471k0r76ncn3k540u2rqjf7702c8yyj8st61zsfjez&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    height: 300px;
+}
+
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0px;
+}
+
+a {
+    color: white;
+}
+
+
+
+
+
+
